@@ -1,0 +1,656 @@
+@media screen and (max-width:1200px){
+    /* our product */
+    
+   .swiper-slide-active  .product{
+    width: 80%;  
+     }
+
+     .swiper-slide-active  .product .see_more{
+        font-size: .75rem;
+      }
+      
+      .swiper-slide-active  .product .see_more img{
+        height: 20px;
+      }
+}
+
+@media screen and (max-width:1100px){
+    /* specs */ 
+    
+    .col_specs{ 
+        padding: 0 0rem; 
+    }
+
+    /* support tool */
+    .support-tool_content{ 
+        padding: 0 7rem; 
+    }
+
+    /* models */
+    #models .container{  
+        height: 990px;  
+    }
+    
+    #models .models_select-img{
+        flex-direction: column;
+    }
+
+    .seledted_models{
+        flex-direction: row;
+        width: 100%;
+        height: 20%;
+        
+    }
+
+    .select_model{
+        height: 100%;
+        width: 33.33%;  
+    }
+
+    .select_model img{
+        object-fit: contain;
+    }
+
+    .model_image{
+        width: 100%; 
+        height: 80%; 
+    }
+
+    .model_image img{
+        object-fit: contain; 
+    }
+}
+
+@media screen and (min-width:1000px) {
+    /* navbar */
+    .navbar-nav{  
+        display: flex;
+        justify-content: end;
+
+        gap: 4rem;
+        width: 100%;
+ 
+    } 
+}
+
+@media screen and (max-width:1000px) {
+    /* navbar */ 
+    .navbar-nav{
+        width: 100%; 
+        text-align: center;
+
+        gap: 3rem;
+        align-items: center;
+
+        padding: 2rem 0;
+    }
+
+    /* header */ 
+    header{ 
+        padding: 0; 
+    }
+
+
+    #image img{  
+        width: 100%; 
+    }
+
+    #contentHeader{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 5rem;
+ 
+    }
+
+    header #image,
+    header .content_header{ 
+        width: 100%;
+    }
+
+    .about_headPhone{ 
+        width: 40%;
+    }
+
+    .content_header{
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        justify-content: center;
+    }
+
+    .about_headphone_header{
+        width: 40%;
+
+        font-size: .9rem;
+    }
+    
+
+    #bag-btn{
+        padding: 0 3rem;
+        width: 200px; 
+    }
+
+    /* specs */
+    .col_specs .col1{
+        padding-left: 0rem; 
+    }
+
+    .specs_headphone p{ 
+        line-height: 1.4;
+    }
+
+    /* support tool */
+     .support-tool_content{ 
+      padding: 0 4rem; 
+    }
+
+    .support-tool_about-content{
+        font-size: .8rem; 
+        line-height: 2.3;
+    }
+ 
+    .support-tool_cable .support-tool_about{ 
+        padding-left: 5rem;
+    }
+
+    .support-tool_about .btn{ 
+        font-size: .8rem;
+    }
+
+    /* models */
+    .models_images img{
+        object-fit: contain     ;
+    }
+
+       /* our product */
+       .swiper{
+        height: 500px;
+       }
+
+       #products .product_title{
+        font-size: 3rem;
+       }
+
+       .swiper-button-prev,
+       .swiper-button-next{  
+         height: 40px; 
+ 
+       }
+
+
+       .swiper-slide  .product,
+       .swiper-slide-active  .product{
+        width: 400px;   
+        height: 100%;
+     } 
+
+     .swiper-slide-active  .product .image{
+        height: 200px; 
+      }
+
+      .about_product{
+        padding: 0;
+      }
+
+      /* footer */
+      footer{
+        height: 400px; 
+
+        flex-direction: column;
+      }
+            
+        footer .logo,
+        footer .link_media{
+            width: 100%;
+            height: 20%;  
+            justify-content: space-between;
+
+            padding: 0 10rem;
+        }
+
+        .link_footer{
+            width: 100%;
+            height: 40%;  
+        } 
+        
+
+}
+
+@media screen and (max-width:770px){
+    header{
+        height: auto; 
+    }
+    /* header */
+    .bgText{ 
+        top: 10%;
+        left: -15%;
+    }
+
+    .content_header{
+        padding: 0; 
+    }
+
+    .about_headPhone{ 
+        width: 100%;
+        text-align: center;
+ 
+    }
+
+    .about_headphone_header{
+        width: 70%;
+        padding: 0;
+
+    }
+
+    #bag-btn{  
+        width: 70%; 
+    }
+
+    /* specs */
+    #specs{
+        margin-top: 10rem;      
+        height: auto; 
+    }
+
+    .image_specs img{
+        width: 40%;
+        height: auto;
+
+        object-fit: contain;
+    }
+
+    .col_specs .col1,
+    .col_specs .col2{
+        width: 40%;  
+        padding: 0;
+    }
+
+    .col_specs .col2{
+        align-items: end; 
+    }
+
+    .specs_headphone{
+        margin-top: 1rem; 
+        height: 100px;
+        
+        margin: 1rem 0;
+    }
+
+    .specs_headphone p{
+        font-size: .75rem;
+        letter-spacing: 1px;
+    }
+
+    .specs_headphone span{
+        font-size: .65rem; 
+    }
+
+    /* support tool */
+    .support-tool_content .support-tool_case,
+    .support-tool_content .support-tool_cable{
+    height: 360px;   
+    }
+
+    .support_image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .support_image img{
+        height: var(--heightM);
+        width: auto;
+        
+        object-fit: contain;
+    }
+
+    /* models */
+    .models_title{
+        font-size: 3rem;
+    }
+
+    .models_images{
+        height: 9%;  
+        gap: 0;   
+    }
+
+    .model_name{
+        font-size: 2rem;
+    }
+
+    /* footer */
+    footer{
+        height: 500px; 
+    }
+
+    footer .logo,
+    footer .link_media{ 
+        height: 10%;    
+    }
+
+    .link_footer{
+        flex-direction: column;
+        height: 60%;  
+        gap: 1.5rem;
+    } 
+}
+
+@media screen and (max-width:700px){
+    /* our product */
+    .swiper{
+        height: 440px;
+     }
+
+    .swiper-slide  .product,
+    .swiper-slide-active  .product{
+        padding-top: .5rem;
+         width: 300px;   
+     } 
+
+     .product .image,
+     .swiper-slide-active  .product .image{
+        height: 140px; 
+      }
+
+      .name_product,
+      .swiper-slide-active .name_product{
+        font-size: .7rem;
+        letter-spacing: 1px;
+      }
+
+      .see_more,
+      .swiper-slide-active .see_more{
+        padding-left: 2rem;
+      }
+ 
+}
+
+@media screen and (max-width:600px){
+    /* support tool */
+    .support-tool_content{ 
+        padding: 0 0rem; 
+    }
+    .support_image img{
+        height: 200px; 
+    }
+
+    /* models */
+    #models .container{
+        width: 80%;
+        height: auto;
+    }
+        /* footer */ 
+    
+        footer .logo,
+        footer .link_media{  
+            padding: 4rem;  
+        }
+    
+        .link_footer{
+            flex-direction: column; 
+            gap: 2.3rem;
+        } 
+        .link_footer   .link a{
+            font-size: .78rem; 
+        }
+}
+
+@media screen and (max-width:500px){
+    /* navbar */
+    .navbar{
+        padding: 0; 
+    }
+    .navbar-brand img{
+        height: 26px;
+    }
+
+    .navbar-nav{ 
+        font-size: 15px; 
+    }
+
+    /* header */
+    .about_headPhone{ 
+        margin: 0;
+    }
+
+    .about_headPhone .merk{ 
+        font-size: 1.3rem; 
+    }
+
+    .about_headPhone .type{
+        font-size: 2rem;
+    }
+
+    .about_headPhone .price{
+        font-size: .9rem;
+    }
+
+    .about_headphone_header{
+        font-size: .74rem; 
+    }
+
+    #bag-btn{  
+        margin-top: 0;
+        width: 200px; 
+        font-size: .7rem;
+    }
+
+    /* specs */ 
+    #specs{
+        height: auto;  
+    }
+    .specs_title{  
+        font-size: 3rem; 
+    }
+
+    .specs_content{
+        flex-direction: column; 
+    }  
+
+    .col_specs{
+        padding: 0 1.5rem;
+    }
+
+    .image_specs{
+        position: relative; 
+    }
+
+    .col_specs .col1,
+    .col_specs .col2{
+        padding-left: 0rem;
+    }
+ 
+    .image_specs img{
+        width: 50%;
+        height: auto;
+
+        object-fit: contain;
+    }
+
+    .specs_headphone{
+        width: 100%; 
+        margin-top: 1rem;
+        
+        margin-left: 0;
+        margin-right: 0;
+
+        height: 100px; 
+    }
+
+    .iconSpecs { 
+        padding: .5rem 0;
+        height: 60%;
+
+        justify-content: center;
+    }
+
+    .iconSpecs img{
+        height:auto;
+        width: var(--widthS);
+     
+    }
+
+    .specs_name{
+        margin-top: 1rem;
+        line-height: .1; 
+
+        text-align: center;
+    }
+
+    .specs_name p{
+        font-weight: 600;
+        font-size: .65rem;
+        letter-spacing: .5px;
+    }
+
+    .specs_name span{
+        font-size: .55rem; 
+        letter-spacing: .2px;
+        font-weight: 100;
+    }
+
+    /* support tool */
+    #support-tool{
+        margin-top: 4rem;   
+    }
+
+    .support-tool_title{
+        font-size: 2.5rem;
+    } 
+
+    .support-tool_content{
+        padding: 0;
+        height: auto; 
+    }
+
+    .support-tool_content .support-tool_case,
+    .support-tool_content .support-tool_cable{
+        height: 300px;
+        
+    }
+
+    .support-tool_content .support-tool_case .support_image,
+    .support-tool_content .support-tool_cable .support_image{
+        width: 40%;
+ 
+        height: 100%;   
+        overflow: hidden;
+    }
+
+    .support-tool_content .support-tool_case .support_image img,
+    .support-tool_content .support-tool_cable .support_image img{
+        width:auto;
+        height: var(--height);
+        
+        object-fit: cover;
+
+        top: 0;
+        left: var(--over);
+        right: var(--overR);
+
+        position: absolute; 
+    }
+ 
+    .support-tool_about{
+        width: 60%; 
+        padding: 0 1rem;
+    }
+
+    .support-tool_cable .support-tool_about{ 
+        padding-left: 1rem;
+    }
+
+    .support-tool_about-title{ 
+        font-size: 1rem;
+    }
+
+    .support-tool_about-content{ 
+        font-size: .6rem;
+        width: 100%;
+        height: 150px;
+ 
+
+        line-height: 2.2;
+    }
+
+    .support-tool_about .btn{ 
+
+        font-size: .6rem;
+    }
+
+    /* models */ 
+    .model_name{
+        font-size: 1.5rem;
+    }
+ 
+
+    .model_image img{
+        object-fit: contain;   
+    }
+
+     /* our product */
+     .swiper{
+        height: 400px;
+     }
+     
+       .swiper-button-prev,
+       .swiper-button-next{   
+         width: 30px; 
+       }
+
+     .swiper-slide  .product,
+     .swiper-slide-active  .product{ 
+          width: 240px;   
+      } 
+
+     .about_product,
+     .swiper-slide-active .about_product{
+        font-size: .6rem;
+        line-height: 1.9;
+     }
+     
+     .name_product,
+     .swiper-slide-active .name_product{
+        font-size: .6rem; 
+     }
+     
+     .swiper-slide-active .price{
+        font-size: .6rem;
+     }
+
+     .product .image,
+     .swiper-slide-active .product .image{
+        height: 100px;
+     }
+
+     .see_more,
+     .swiper-slide-active .see_more{
+        font-size: .6rem;
+     }
+    
+}
+
+@media screen and (max-width:400px){
+    /* models */
+    .model_image{
+        width: 90%;
+        height: 300px;  
+    }
+
+    .models_images{
+        height: 40px; 
+    }
+
+    .models_images img{
+        object-fit: contain     ;
+    }
+    /* footer */ 
+    
+    footer .logo,
+    footer .link_media{  
+        padding: 1rem;  
+    } 
+}
