@@ -31,6 +31,7 @@ body{
     background-color: rgba(0, 0, 0, 0.212);
 }
 
+
 .navbar-toggler{
     border: none;
     outline: none;
@@ -66,8 +67,6 @@ li a{
     height: 750px;
 }
 
-
-
 .bgRadient{
     position: absolute;
     width: 100%;
@@ -92,6 +91,15 @@ li a{
     letter-spacing: 7px;
     top: 24%;
     left: 5%;
+}
+
+#image{
+    max-width: 100%;  
+    overflow: hidden;
+}
+
+.about_headphone_hero{
+
 }
 
 #image img{ 
@@ -143,8 +151,7 @@ li a{
     object-fit: cover;
 } 
  
-/* specs  */
-
+/* specs  */ 
 .specs{
     height: auto; 
 }

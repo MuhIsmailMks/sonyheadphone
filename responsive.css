@@ -84,7 +84,7 @@
 
         padding: 2rem 0;
     } 
-    
+
     /* hero */ 
     .hero{ 
         padding: 0; 
@@ -369,6 +369,18 @@
 }
 
 @media screen and (max-width:600px){
+    /* hero section */
+    #image{
+        width: 90% !important;
+    }
+
+    #image .bgText{
+        left: 0%;
+    }
+
+    #image img{
+        width: 60%;
+    }
     /* support tool */
     .support-tool_content{ 
         padding: 0 0rem; 

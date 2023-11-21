@@ -14,7 +14,7 @@ if(widthScreen < 1000){
     if(topScroll > 50){
         navbar.classList.add('active');
     } else {
-        navbar.classList.remove('active')
+        navbar.classList.add('active')
     } 
 
     window.addEventListener('scroll', () => {  
