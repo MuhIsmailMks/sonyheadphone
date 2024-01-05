@@ -25,7 +25,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark    py-3  fixed-top">
 
-        <div class="container-fluid">
+        <header class="container-fluid">
 
           <a class="navbar-brand" href="#">
             <img src="img/logo.png" alt="">
@@ -56,11 +56,11 @@
             </ul>
           </div>
 
-        </div>
+        </header>
 
       </nav> 
  
-      <div class=" hero position-relative "  id="home">
+      <div class="section-page hero position-relative "  id="home">
         <div class="bgRadient"></div>
 
         <div id="contenthero" class="container w-auto position-relative  d-flex justify-content-center align-items-center ">
@@ -90,7 +90,7 @@
       </div>  
  
  
-      <div class="specs position-relative  d-flex flex-column align-items-center" id="specs">
+      <div class="section-page specs position-relative  d-flex flex-column align-items-center" id="specs">
 
         <div class="specs_title text-center">Specs</div>
 
@@ -161,7 +161,7 @@
 
       </div> 
  
-       <div id="support-tool" class="position-relative d-flex flex-column align-items-center">
+       <div class=" position-relative d-flex flex-column align-items-center" >
         <div class="support-tool_title text-center position-relative">support tool</div>
 
         <div class="support-tool_content py-5 w-100 position-relative">
@@ -199,47 +199,47 @@
         </div>
       </div>  
  
- <div id="models" class="position-relative h-auto w-100 d-flex flex-column align-items-center "> -->
-        <div class="models_title text-center">Models</div>
+      <div class="section-page position-relative h-auto w-100 d-flex flex-column align-items-center " id="models"> 
+              <div class="models_title text-center">Models</div>
 
-        <div class="container d-flex flex-column justify-content-center">
+              <div class="container d-flex flex-column justify-content-center">
 
-          <div class="models_select-img w-100 d-flex align-items-center justify-content-between">
+                <div class="models_select-img w-100 d-flex align-items-center justify-content-between">
 
-             <div class="seledted_models  d-flex   position-relative">
-                <div class="select_model position-relative" >
-                    <img src="img/models1.png" alt="models" class="w-100 h-100" data-modelName="Black" id="models1">
+                  <div class="seledted_models  d-flex   position-relative">
+                      <div class="select_model position-relative" >
+                          <img src="img/models1.png" alt="models" class="w-100 h-100" data-modelName="Black" id="models1">
+                      </div>
+                      <div class="select_model position-relative">
+                          <img src="img/models2.png" alt="models" class="w-100 h-100" data-modelName="Midnight Blue" id="models2">
+                      </div>
+                      <div class="select_model position-relative">
+                          <img src="img/models3.png" alt="models" class="w-100 h-100" data-modelName="White" id="models3">
+                      </div>
+                  </div>
+
+                  <div class="model_image position-relative  ">
+                      <div class="model_name position-absolute">Black</div>
+                      <img src="img/modelsImage.png" alt="modelHeadphone" class="w-100 h-100"> 
+                  </div>
+
                 </div>
-                <div class="select_model position-relative">
-                    <img src="img/models2.png" alt="models" class="w-100 h-100" data-modelName="Midnight Blue" id="models2">
+
+                <div class="models_images w-100 d-flex justify-content-center">
+                  <div class="model_img h-100  position-relative"><img src="img/models1_1.png" alt="" class="w-100 h-100"></div>
+                  <div class="model_img h-100  position-relative"><img src="img/models1_2.png" alt="" class="w-100 h-100"></div>
+                  <div class="model_img h-100  position-relative"><img src="img/models1_3.png" alt="" class="w-100 h-100"></div>
+                  <div class="model_img h-100  position-relative"><img src="img/models1_4.png" alt="" class="w-100 h-100"></div>
+                  <div class="model_img h-100  position-relative"><img src="img/models1_5.png" alt="" class="w-100 h-100"></div>
+                  <div class="model_img h-100  position-relative"><img src="img/models1_6.png" alt="" class="w-100 h-100"></div>
                 </div>
-                <div class="select_model position-relative">
-                    <img src="img/models3.png" alt="models" class="w-100 h-100" data-modelName="White" id="models3">
-                </div>
-             </div>
 
-             <div class="model_image position-relative  ">
-                <div class="model_name position-absolute">Black</div>
-                <img src="img/modelsImage.png" alt="modelHeadphone" class="w-100 h-100"> 
-             </div>
-
-          </div>
-
-          <div class="models_images w-100 d-flex justify-content-center">
-             <div class="model_img h-100  position-relative"><img src="img/models1_1.png" alt="" class="w-100 h-100"></div>
-             <div class="model_img h-100  position-relative"><img src="img/models1_2.png" alt="" class="w-100 h-100"></div>
-             <div class="model_img h-100  position-relative"><img src="img/models1_3.png" alt="" class="w-100 h-100"></div>
-             <div class="model_img h-100  position-relative"><img src="img/models1_4.png" alt="" class="w-100 h-100"></div>
-             <div class="model_img h-100  position-relative"><img src="img/models1_5.png" alt="" class="w-100 h-100"></div>
-             <div class="model_img h-100  position-relative"><img src="img/models1_6.png" alt="" class="w-100 h-100"></div>
-          </div>
-
-        </div>
+              </div>
 
       </div>  
  
-       <div id="products">
-                <div class="product_title text-center">Our Product</div>
+       <div class="section-page " id="products">
+        <div class="product_title text-center">Our Product</div>
  
         <div class="swiper position-relative w-100"> 
             <div class="swiper-wrapper text-white text-center"> 
@@ -250,7 +250,7 @@
  
          </div>
 
-     </div>  
+       </div>  
   
        <footer class="w-100 position-relative d-flex align-items-center justify-content-center">
         <div class="logo d-flex justify-content-center align-items-center position-relative"><img src="img/logo.png" alt=""></div>
@@ -268,12 +268,9 @@
         <div class="by position-absolute">© Ismail. All rights reserved</div>
       </footer> 
 
+
     <!-- bootstrap script  --> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- figma link
-    https://www.figma.com/file/yimv6lBhSunxfiQfqSatsf/sonyHeadphone?type=design&node-id=0-1&t=7xYWw8ltaYqOvtYv-0
-    -->
 
     <!-- bundle  swiper js -->
    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

@@ -8,6 +8,7 @@ const swiperContainer = document.querySelector('.swiper-wrapper');
 let topScroll = window.pageYOffset;
 let widthScreen = window.screen.width;
 
+// responsive navbar 
 if(widthScreen < 1000){
     navbar.classList.add('active');
 } else { 
@@ -27,6 +28,28 @@ if(widthScreen < 1000){
    })
 }
 
+// active navbar link
+window.addEventListener('scroll', () => {
+    const sectionContent = document.querySelectorAll('.section-page');
+    const navbarLinks = document.querySelectorAll('ul li a');
+    let currentSection = '';
+
+    sectionContent.forEach(section => {
+        const sectionTop = section.offsetTop; 
+        if (scrollY > sectionTop ) {
+          currentSection = section.getAttribute('id');
+        }  
+    });
+ 
+    navbarLinks.forEach(link => {
+        link.classList.remove('active');
+        if(link.getAttribute('href').slice(1) === currentSection){
+            link.classList.add('active');
+        }
+    })
+ 
+})
+
 //  select models 
 selectModelImg.addEventListener('click', (e) => {
     let targ = e.target;
@@ -44,15 +67,11 @@ selectModelImg.addEventListener('click', (e) => {
     });
 
     const filterModel = modelsImg.filter(modelFil => modelFil != undefined);
-
-    // console.log(filterModel[0]);  
-    
     selectModels.innerHTML = `${filterModel[0]}`
 })
 
 selectModels.addEventListener('click',(e) => {
-    let targ = e.target;
-    console.log(targ);
+    let targ = e.target; 
 
     if(targ.className === 'w-100 h-100'){
         modelImageContainer.setAttribute('src', targ.src)
@@ -78,15 +97,12 @@ products.forEach(product => {
         </div> 
     `
     
-    swiperContainer.innerHTML += newSwiper.innerHTML
-    console.log(newSwiper);
-
+    swiperContainer.innerHTML += newSwiper.innerHTML ;
 }) 
 
 
 // swiper scroll
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
+const swiper = new Swiper('.swiper', { 
     direction: 'horizontal',
     loop: false,
     centeredSlides :"true",
