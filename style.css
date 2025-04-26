@@ -231,7 +231,7 @@ li a{
 
 /* support tool */
 #support-tool{
-    margin-top: 18rem;
+    margin-top: 15rem;
 }
 
 .support-tool_title{
@@ -393,6 +393,7 @@ li a{
     
     padding: 4rem 2rem;
 }
+
 #products .product_title{
     font-weight: 900;
     font-size: 4rem;

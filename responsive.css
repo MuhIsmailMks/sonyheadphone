@@ -321,11 +321,7 @@
         font-size: 2rem;
     }
 
-    /* footer */
-    footer{
-        height: 500px; 
-    }
-
+    /* footer */ 
     footer .logo,
     footer .link_media{ 
         height: 10%;    
@@ -526,7 +522,7 @@
 
     /* support tool */
     #support-tool{
-        margin-top: 4rem;   
+        margin-top: 10rem;   
     }
 
     .support-tool_title{
