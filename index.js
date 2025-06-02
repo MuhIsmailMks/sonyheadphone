@@ -49,36 +49,36 @@ window.addEventListener('scroll', () => {
     })
  
 })
-
-//  select models 
+// select model image (thumbnail clicked)
 selectModelImg.addEventListener('click', (e) => {
     let targ = e.target;
 
     let idModel = targ.id;
-    let modelsName = targ.dataset.modelname
-    modelNameImageContainer.innerHTML = `${modelsName}`
-    modelImageContainer.setAttribute('src', targ.src)
+    let modelsName = targ.dataset.modelname;
+    modelNameImageContainer.innerHTML = `${modelsName}`;
+    modelImageContainer.setAttribute('src', targ.src);
 
+    const selectedModelImgs = models[idModel];
 
-    // imagesModels
-    let modelsImg = []; 
-    models.forEach(model => {   
-        modelsImg.push(model[idModel])
-    });
+    selectModels.innerHTML = selectedModelImgs
+      .map(src => `
+        <div class="model_img h-100 position-relative">
+          <img src="${src}" alt="" class="w-100 h-100">
+        </div>
+      `).join('');
+});
 
-    const filterModel = modelsImg.filter(modelFil => modelFil != undefined);
-    selectModels.innerHTML = `${filterModel[0]}`
-})
-
-selectModels.addEventListener('click',(e) => {
+// select image from model gallery
+selectModels.addEventListener('click', (e) => {
     let targ = e.target; 
-
     if(targ.className === 'w-100 h-100'){
-        modelImageContainer.setAttribute('src', targ.src)
+        modelImageContainer.setAttribute('src', targ.src);
     }  
-})
+});
 
 // data product
+const fragment = document.createDocumentFragment()
+
 products.forEach(product => {
     const newSwiper = document.createElement('div');
 
@@ -96,10 +96,10 @@ products.forEach(product => {
         </div> 
         </div> 
     `
-    
+   
     swiperContainer.innerHTML += newSwiper.innerHTML ;
 }) 
-
+ 
 
 // swiper scroll
 const swiper = new Swiper('.swiper', { 

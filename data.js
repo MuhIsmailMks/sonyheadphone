@@ -1,30 +1,28 @@
- 
-const models =[
-    {
-        models1 : ` <div class="model_img h-100  position-relative"><img src="img/models1_1.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models1_2.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models1_3.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models1_4.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models1_5.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models1_6.png" alt="" class="w-100 h-100"></div>`
-    },
-    
-    {
-        models2 : ` <div class="model_img h-100  position-relative"><img src="img/models2_1.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models2_2.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models2_3.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models2_4.png" alt="" class="w-100 h-100"></div> `
-    },
-    
-    {
-        models3 : ` <div class="model_img h-100  position-relative"><img src="img/models3_1.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models3_2.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models3_3.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models3_4.png" alt="" class="w-100 h-100"></div>
-        <div class="model_img h-100  position-relative"><img src="img/models3_5.png" alt="" class="w-100 h-100"></div> `
-    },
-    
-]
+const models = {
+  models1: [
+    'img/models1_1.webp',
+    'img/models1_2.webp',
+    'img/models1_3.webp',
+    'img/models1_4.webp',
+    'img/models1_5.webp',
+    'img/models1_6.webp'
+  ],
+  models2: [
+    'img/models2_1.webp',
+    'img/models2_2.webp',
+    'img/models2_3.webp',
+    'img/models2_4.webp'
+  ],
+  models3: [
+    'img/models3_1.webp',
+    'img/models3_2.webp',
+    'img/models3_3.webp',
+    'img/models3_4.webp',
+    'img/models3_5.webp'
+  ]
+};
+
+
 
 const products = [
     {
